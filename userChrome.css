@@ -60,21 +60,25 @@
 
 /* Edit the size of tab spacers */
 
-	.titlebar-spacer[type="pre-tabs"]{width:10px}
-	.titlebar-spacer[type="pre-tabs"]{opacity:0}
+	.titlebar-spacer[type="pre-tabs"]{width:10px !important;}
+	.titlebar-spacer[type="pre-tabs"]{opacity:0 !important;}
+  .titlebar-spacer[type="post-tabs"]{display:none !important;}
 	#navigator-toolbox { border: none !important;}
+
 
 /* Make tab select color black */
 
-	.tab-background[selected="true"]{background-color: black;} 		/* this sets the color of the tab background */
-	
-	.tab-line[selected="true"] {background-color : black;}		 /* this sets the color of the line above the tab */
+        .tab-background[selected="true"]{background-color: black !important;}              /* this sets the color of the tab background */
+        
+        .tab-line[selected="true"] {background-color : black !important;;}           /* this sets the color of the line above the tab */
 
 /* Hide the small x in tabs */
 
-	.tabbrowser-tab:not([pinned]):not([selected]) .tab-close-button {display: none !important;}
-	.tabbrowser-tab:not([pinned]):not([selected]):hover .tab-close-button {display: -moz-box !important;}
+        .tabbrowser-tab:not([pinned]):not([selected]) .tab-close-button {display: none !important;}
+        .tabbrowser-tab:not([pinned]):not([selected]):hover .tab-close-button {display: -moz-box !important;}
 
 
 
-/* Bugs : Tab spacers still remain, and tab highlight color doesn't darken. Though effects do take change correctly when previewed in style editor. */
+/* hbox.titlebar-buttonbox-container:nth-child(4) {display:none;} */
+
+
