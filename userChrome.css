@@ -58,18 +58,17 @@
 	#browser vbox#appcontent tabbrowser #content, #tabbrowser-tabpanels, browser[type=content-primary], browser[type=content] > html {
 		background: #282828 !important; background-color: #282828 !important; 	color: #282828 !important; }
 
+/* Edit the size of tab spacers */
+
 	.titlebar-spacer[type="pre-tabs"]{width:10px}
 	.titlebar-spacer[type="pre-tabs"]{opacity:0}
 	#navigator-toolbox { border: none !important;}
 
 /* Make tab select color black */
 
-	.tab-background[selected="true"]{
-	background-color: black; 		/* this sets the color of the tab background */
-	}
-	.tab-line[selected="true"] {
-	background-color : black;		 /* this sets the color of the line above the tab */
-	}
+	.tab-background[selected="true"]{background-color: black;} 		/* this sets the color of the tab background */
+	
+	.tab-line[selected="true"] {background-color : black;}		 /* this sets the color of the line above the tab */
 
 /* Hide the small x in tabs */
 
