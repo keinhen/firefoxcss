@@ -114,3 +114,20 @@
 	#urlbar .urlbarView {
 	display: none !important;
 }
+
+#urlbar-container{
+	--lwt-toolbar-field-background-color: rgb(71, 71, 73, 0);
+	--lwt-toolbar-field-border-color: rgba(249, 249, 250, 0);
+}
+
+#urlbar{
+	--lwt-toolbar-field-focus: rgba(0,0,0,0);
+  --toolbar-field-focus-border-color: rgba(0,0,0,0);
+}
+
+#navigator-toolbox{
+	--toolbar-bgcolor: rgba(21,21,21,1);
+}
+
+
+::-moz-selection {background-color: rgba(0,0,0,0.2);}

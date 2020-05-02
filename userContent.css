@@ -1,0 +1,10 @@
+@-moz-document url("about:newtab") {
+    body {
+        background-color: rgba(21,21,21,1) !important;
+    }
+}
+
+@-moz-document url("file:///home/henry/.homepage/index.html"){
+	
+
+}
